@@ -152,6 +152,31 @@ img {
   color: var(--primary-text-gray);
 }
 
+.address-link:hover .svg-envelope,
+.address-link:focus .svg-envelope,
+.address-link:hover .svg-telephone,
+.address-link:focus .svg-telephone,
+.link:hover,
+.link:focus {
+  color: var(--text-accent);
+  fill: var(--text-accent);
+}
+.contacts-nav .svg-envelope {
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.contacts-nav .svg-telephone {
+  align-items: center;
+  justify-content: center;
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+
 /*Услуги*/
 
 .services {
